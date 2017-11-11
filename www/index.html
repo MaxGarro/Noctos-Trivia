@@ -31,7 +31,7 @@
             app.initialize();
             jQuery(document).ready(function($) {
                 var capa = '#pregunta';
-                var JsonPreguntas = Array();
+                var jsonPreguntas = Array();
 
                 //Cantidad de Preguntas a Hacer
                 var cantPreguntas = 10;
@@ -94,21 +94,53 @@
                             for (i = 0; i < cantPreguntas; i++) { 
                                 aleatorio(0,TotalPreguntas);
                             }
-                            //jsonPreguntas = data.preguntas;
+                            jsonPreguntas = data.preguntas;
 
-                        $(capa).html(data.preguntas[numPregunta[0]].pregunta + TotalPreguntas);
+                        //$(capa).html(data.preguntas[numPregunta[0]].pregunta + TotalPreguntas);
                        // $(capa).html(jsonPreguntas[1].pregunta);
                     })
-/*
-                    .done(function() { alert('getJSON request succeeded!'); })
-                    .fail(function() { alert('getJSON request failed! '); })
-                    .always(function() { alert('getJSON request ended!'); });*/
                 }
 
+                //Crear Pregunta
+                function crearPregunta(num, data){
+                    $(capa).html('');
+
+                    //HTML DE PREGUNTA
+                    //<h1 class="celeste">PREGUNTA_ <label id="preguntaNum" class="rosa">1</label></h1>
+                    var preguntaNum = $('<h1/>',{
+                        'class' : 'celeste',
+                        'data-siguiente' : num+1,
+                        'text'  : 'PREGUNTA_ '
+                    }).append($('<label/>',{
+                                    'id':'preguntaNum',
+                                    'class':'rosa',
+                                    'data-valor' :num+1,
+                                    'text' : num+1})).appendTo(capa);
+                    
+                    //<h2 id=preguntaTexto>TEXTO</h2>
+                    var preguntaTexto = $('<h2/>',{
+                        'id'    : 'preguntaTexto',
+                        'text'  : data.pregunta
+                    }).appendTo(capa);
+
+                    $.each(data.respuestas, function(key,  valor) {
+                        //<button type="button" class="celeste" data-correcto="0">Leer QR</button>
+                        var respueta = $('<button/>',{
+                            'class'          : 'celeste preguntaTrivia',
+                            'data-correcto'  : valor.correcto,
+                            'text'           : valor.texto
+                        }).appendTo(capa); 
+                    });
+
+                }
 
                 //Comenzar Trivia
                 iniciarTrivia();
 
+                //Iniciando Trivia
+                $(document).on('click', '#IniciarTrivia', function(event) {
+                    crearPregunta(0, jsonPreguntas[numPregunta[0]]);
+                });
 /*
 
                 var JsonPreguntas = Array();
