@@ -46,8 +46,10 @@
                 //Inicializar
                 function iniciarTrivia(){
                     Puntaje = 0;
-                    $(capa).html('');
                     numPregunta = new Array();
+                    
+
+                    $(capa).html('');
                     //HTML DE PREGUNTA
                     //<h1 class="celeste">PREGUNTA_ <label id="preguntaNum" class="rosa">1</label></h1>
                     var preguntaNum = $('<h1/>',{
@@ -67,29 +69,28 @@
                     }).appendTo(capa); 
 
                     function aleatorio(min, max) {
-                        var num = Math.floor(Math.random()*(max-min+1))+min;
+                        var num = Math.floor(Math.random()*(max-min+1))+min;/*
                         if(numPregunta.includes(num)){
                             aleatorio(min, max);
                         }else{
                             numPregunta.push(num);
-                        }
+                        }*/
                     }
 
-
+                    var hola = aleatorio(0,72);
 
                      $.getJSON( "ajax/preguntas.json", function( data ) {
                         
                             //Cantidad de Preguntas en el JSON
                             var TotalPreguntas = Object.keys(data.preguntas).length - 1;
-                            var hola = '';
+
                             //Conseguir Preguntas Aleatorias
                             for (i = 0; i < cantPreguntas; i++) { 
-                                hola = 'a'+hola;
-                                //aleatorio(0,TotalPreguntas);
+                                aleatorio(0,TotalPreguntas);
                             }
                             //jsonPreguntas = data.preguntas;
 
-                        $(capa).html(data.preguntas[0].pregunta + TotalPreguntas + hola);
+                        $(capa).html(data.preguntas[0].pregunta + TotalPreguntas);
                        // $(capa).html(jsonPreguntas[1].pregunta);
                     })
 /*
