@@ -78,7 +78,7 @@
 
 
                      $.getJSON( "ajax/preguntas.json", function( data ) {
-                        /*
+                        
                             //Cantidad de Preguntas en el JSON
                             var TotalPreguntas = Object.keys(data.preguntas).length - 1;
                             //Conseguir Preguntas Aleatorias
@@ -86,8 +86,8 @@
                                 aleatorio(0,TotalPreguntas);
                             }
                             //jsonPreguntas = data.preguntas;
-*/
-                        $(capa).html(data.preguntas[0].pregunta);
+
+                        $(capa).html(data.preguntas[numPregunta[0]].pregunta);
                        // $(capa).html(jsonPreguntas[1].pregunta);
                     })
 /*
