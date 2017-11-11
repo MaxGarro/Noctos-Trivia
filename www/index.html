@@ -65,7 +65,7 @@
                         'id'             : 'IniciarTrivia',
                         'text'           : 'COMENZAR'
                     }).appendTo(capa); 
-
+/*
                     function aleatorio(min, max) {
                         var num = Math.floor(Math.random()*(max-min+1))+min;
                         if(numPregunta.includes(num)){
@@ -74,25 +74,26 @@
                             numPregunta.push(num);
                         }
                     }
-
+*/
 
 
                      $.getJSON( "ajax/preguntas.json", function( data ) {
+                        /*
                             //Cantidad de Preguntas en el JSON
                             var TotalPreguntas = Object.keys(data.preguntas).length - 1;
                             //Conseguir Preguntas Aleatorias
                             for (i = 0; i < cantPreguntas; i++) { 
                                 aleatorio(0,TotalPreguntas);
                             }
-                            jsonPreguntas = data.preguntas;
-
-                        //$(capa).html(data.preguntas[0].pregunta);
-                        $(capa).html(jsonPreguntas[1].pregunta);
+                            //jsonPreguntas = data.preguntas;
+*/
+                        $(capa).html(data.preguntas[0].pregunta);
+                       // $(capa).html(jsonPreguntas[1].pregunta);
                     })
-
+/*
                     .done(function() { alert('getJSON request succeeded!'); })
                     .fail(function() { alert('getJSON request failed! '); })
-                    .always(function() { alert('getJSON request ended!'); });
+                    .always(function() { alert('getJSON request ended!'); });*/
                 }
 
 
