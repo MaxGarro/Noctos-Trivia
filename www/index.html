@@ -133,7 +133,34 @@
                     });
 
                 }
+                //Finalizar
+                function finTrivia(){
+                    $(capa).html('');
+                    //HTML DE PREGUNTA
+                    //<h1 class="celeste">PREGUNTA_ <label id="preguntaNum" class="rosa">1</label></h1>
+                    $('<h1/>',{
+                        'class' : 'celeste titular',
+                        'text'  : 'ENCUESTA TERMINADA PUNTAJE  '
+                    }).appendTo(capa);
 
+                    $('<h1/>',{
+                        'class' : 'rosa puntaje',
+                        'text'  : Puntaje + ' de 10' 
+                    }).appendTo(capa);    
+
+                    if (Puntaje >= PuntajeCorrecto){
+                        $('<h2/>',{'text'  : 'Bien Hecho!'}).appendTo(capa);
+                    }else{
+                        $('<h2/>',{'text'  : 'Lo sentimos!'}).appendTo(capa);
+                    }
+
+                    $('<button/>',{
+                        'class'          : 'rosa',
+                        'id'             : 'FinalizarEncuesta',
+                        'text'           : 'Reiniciar'
+                    }).appendTo(capa); 
+                }
+                
                 //Comenzar Trivia
                 iniciarTrivia();
 
@@ -141,9 +168,41 @@
                 $(document).on('click', '#IniciarTrivia', function(event) {
                     crearPregunta(0, jsonPreguntas[numPregunta[0]]);
                 });
+
+                //Finalizar Trivia
+                $(document).on('click', '#FinalizarEncuesta', function(event) {
+                    iniciarTrivia();
+                });
+
+                //Siguiente Pregunta
+                $(document).on('click', '.preguntaTrivia', function(event) {
+                    $('button').prop("disabled",true);
+
+                    if($(this).data('correcto') == '0'){
+                        $(this).addClass('rojo');
+                    }else{
+                        Puntaje++;
+                    }
+                    $('.preguntaTrivia[data-correcto="1"]').addClass('verde');
+
+
+                    if($('#preguntaNum').data('valor') == cantPreguntas){
+                        setTimeout(function(){
+                             finTrivia();
+                        }, 2000);    
+
+                    }else{
+                        setTimeout(function(){
+                            crearPregunta(
+                                $('h1').data('siguiente'), 
+                                jsonPreguntas[numPregunta[$('h1').data('siguiente')]]
+                                );
+                        }, 2000);
+                    }
+                });
 /*
 
-                var JsonPreguntas = Array();
+                var jsonPreguntas = Array();
 
                 //Cantidad de Preguntas a Hacer
                 var cantPreguntas = 10;
@@ -194,7 +253,7 @@
                         for (i = 0; i < cantPreguntas; i++) { 
                             aleatorio(0,TotalPreguntas);
                         }
-                        JsonPreguntas = data.preguntas;
+                        jsonPreguntas = data.preguntas;
                         //crearPregunta(0, data.preguntas[numPregunta[0]]);
                     });
                 }
@@ -266,7 +325,7 @@
 
                 //Iniciando Trivia
                 $(document).on('click', '#IniciarTrivia', function(event) {
-                    crearPregunta(0, JsonPreguntas[numPregunta[0]]);
+                    crearPregunta(0, jsonPreguntas[numPregunta[0]]);
                 });
 
                 //Finalizar Trivia
@@ -295,7 +354,7 @@
                         setTimeout(function(){
                             crearPregunta(
                                 $('h1').data('siguiente'), 
-                                JsonPreguntas[numPregunta[$('h1').data('siguiente')]]
+                                jsonPreguntas[numPregunta[$('h1').data('siguiente')]]
                                 );
                         }, 2000);
                     }
