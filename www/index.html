@@ -80,14 +80,14 @@
                      $.getJSON( "ajax/preguntas.json", function( data ) {
                         
                             //Cantidad de Preguntas en el JSON
-                            var TotalPreguntas = 71;
-                            //Conseguir Preguntas Aleatorias
+                            var TotalPreguntas = Object.keys(data.preguntas).length - 1;
+                            /*Conseguir Preguntas Aleatorias
                             for (i = 0; i < cantPreguntas; i++) { 
                                 aleatorio(0,TotalPreguntas);
-                            }
+                            }*/
                             //jsonPreguntas = data.preguntas;
 
-                        $(capa).html(data.preguntas[numPregunta[0]].pregunta);
+                        $(capa).html(data.preguntas[0].pregunta + TotalPreguntas);
                        // $(capa).html(jsonPreguntas[1].pregunta);
                     })
 /*
