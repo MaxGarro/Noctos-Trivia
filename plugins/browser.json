@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "escuela.manejo"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "escuela.manejo"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "escuela.manejo"
+        }
+    }
+}

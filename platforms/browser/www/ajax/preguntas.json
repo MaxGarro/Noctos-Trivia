@@ -1,0 +1,384 @@
+{
+"preguntas":
+    [
+        {
+            "tipo": "2",
+            "pregunta" : " ¿Qué es un coito?",
+            "respuestas": 
+                [
+                    {"texto":"Un anticonceptivo.","correcto":"0"},
+                    {"texto":"Una palabra inventada","correcto":"0"},
+                    {"texto":"Acto sexual.","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Qué cromosomas definen al sexo masculino?",
+            "respuestas": 
+                [
+                    {"texto":" XX","correcto":"0"},
+                    {"texto":"XY","correcto":"1"},
+                    {"texto":"YY","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Qué cromosoma definen el sexo femenino?",
+            "respuestas": 
+                [
+                    {"texto":"XX","correcto":"1"},
+                    {"texto":"XY","correcto":"0"},
+                    {"texto":"YY","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Qué significa ETS?",
+            "respuestas": 
+                [
+                    {"texto":"Estudios totales de la sexualidad","correcto":"0"},
+                    {"texto":"Enfermedades de transmisión sexual","correcto":"1"},
+                    {"texto":"Estado tántrico sexual.","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Cuáles de estas son enfermedades de transmisión sexual? ",
+            "respuestas": 
+                [
+                    {"texto":"Cáncer, neumonía y obesidad","correcto":"0"},
+                    {"texto":"Pie de atleta, gastritis y dolor de cabeza","correcto":"0"},
+                    {"texto":"Gonorrea, sífilis y linfogranuloma venéreo.","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Cuál de estos son métodos anticonceptivos?",
+            "respuestas": 
+                [
+                    {"texto":"Sexo telefónico y virtual","correcto":"0"},
+                    {"texto":"Preservativo y pastillas anticonceptivas","correcto":"1"},
+                    {"texto":"Aspirinetas e infusiones a base de jengibre.","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿En qué periodo del humano las hormonas sexuales se activan dando comienzo a los cambios físicos y psicológicos?",
+            "respuestas": 
+                [
+                    {"texto":"De 5 a 8 años","correcto":"0"},
+                    {"texto":"De 10 a 14 años ","correcto":"1"},
+                    {"texto":"De 18 a 25 años ","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Se puede quedar embarazada si se tiene relaciones sexuales durante la menstruación?",
+            "respuestas": 
+                [
+                    {"texto":"No es posible ","correcto":"0"},
+                    {"texto":"Si es posible ","correcto":"1"},
+                    {"texto":"No existe la menstruación","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Cuál de las siguientes es el método más efectivo para reducir el riesgo de traer una enfermedad de transmisión sexual?",
+            "respuestas": 
+                [
+                    {"texto":"Higiene intima luego de mantener relaciones sexuales","correcto":"0"},
+                    {"texto":"Usar preservativo durante toda la relación sexual ","correcto":"1"},
+                    {"texto":"Abstinencia sexual","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Cuál de los siguientes son órganos sexuales femeninos internos?",
+            "respuestas": 
+                [
+                    {"texto":"Riñón, páncreas e intestino ","correcto":"0"},
+                    {"texto":"Ovarios, trompa de Falopio y el útero","correcto":"1"},
+                    {"texto":"Cerebro, estómago y pulmón","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿las mujeres que amamantan pueden quedar embarazadas?",
+            "respuestas": 
+                [
+                    {"texto":"No pueden quedar embarazadas","correcto":"0"},
+                    {"texto":"Recién después de un año ","correcto":"0"},
+                    {"texto":"Si puede quedar embarazada","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Cuál de las siguientes es un método anticonceptivo denominado de emergencia?",
+            "respuestas": 
+                [
+                    {"texto":"Preservativo","correcto":"0"},
+                    {"texto":"Pastillas del día después ","correcto":"1"},
+                    {"texto":"DIU","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Las pastillas anticonceptivas previenen enfermedades venéreas?",
+            "respuestas": 
+                [
+                    {"texto":"Solo previene el embarazo ","correcto":"1"},
+                    {"texto":"Solo previene el SIDA ","correcto":"0"},
+                    {"texto":"Si previene enfermedades venéreas ","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Cuál es el método anticonceptivo más utilizado por el hombre?",
+            "respuestas": 
+                [
+                    {"texto":"DIU","correcto":"0"},
+                    {"texto":"Preservativo ","correcto":"1"},
+                    {"texto":"Aspirina ","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " En una relación sexual ¿Puede producirse la fecundación antes de que el hombre eyacule?",
+            "respuestas": 
+                [
+                    {"texto":"No puede producirse","correcto":"0"},
+                    {"texto":"No, ya que el líquido que segrega el hombre es para humectar","correcto":"0"},
+                    {"texto":"Si puede producirse","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿El virus de VIH puede pasar a través del preservativo?",
+            "respuestas": 
+                [
+                    {"texto":"No ","correcto":"1"},
+                    {"texto":"Si ","correcto":"0"},
+                    {"texto":"No, solo pueden pasar los espermatozoides ","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Qué significa las siglas VIH?",
+            "respuestas": 
+                [
+                    {"texto":"Virus de inmunodeficiencia humana","correcto":"1"},
+                    {"texto":"Virus incapaz de tocar hermanos ","correcto":"0"},
+                    {"texto":"Siglas que identifica a venezolanos, indios y holandeses.","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Son necesarios los controles durante el embarazo? ",
+            "respuestas": 
+                [
+                    {"texto":"No ","correcto":"0"},
+                    {"texto":"Con ir una sola vez basta","correcto":"0"},
+                    {"texto":"Si","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Qué es el himen? ",
+            "respuestas": 
+                [
+                    {"texto":"Tejido fino que cubre la entrada de la vagina","correcto":"1"},
+                    {"texto":"Glándula mamaria ","correcto":"0"},
+                    {"texto":"Venas que recubre al ovulo","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Cuál es el principal fuente de intercambio entre el feto y la madre?",
+            "respuestas": 
+                [
+                    {"texto":"El ovario ","correcto":"0"},
+                    {"texto":"Las mamas ","correcto":"0"},
+                    {"texto":"La placenta ","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Los preservativos tienen fechas de vencimiento?",
+            "respuestas": 
+                [
+                    {"texto":"Solo los productos alimenticios tienen fecha de vencimiento","correcto":"0"},
+                    {"texto":"Los preservativos solo tienen número de lote","correcto":"0"},
+                    {"texto":"Si tienen fecha de vencimiento","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Los preservativos se pueden utilizar más de una vez? ",
+            "respuestas": 
+                [
+                    {"texto":"No.","correcto":"1"},
+                    {"texto":"Sí.","correcto":"0"},
+                    {"texto":"Depende de la marca, algunos pueden utilizarse varias veces.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Qué significa la siglas SEDRONAR?",
+            "respuestas": 
+                [
+                    {"texto":"Secretaria de programación para la prevención de la drogadicción y la lucha contra el     },narcotráfico. ","correcto":"1"},
+                    {"texto":"Secretaria por la prevención de la drogadicción en la argentina. ","correcto":"0"},
+                    {"texto":"Secretaria educada en drogadicción y narcotráfico.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Qué es la adicción?",
+            "respuestas": 
+                [
+                    {"texto":"Una práctica religiosa ","correcto":"0"},
+                    {"texto":"DEPENDENCIA DE SUSTANCIAS, ACTIVIDAD O RELACIÓN.","correcto":"1"},
+                    {"texto":"un TIC nervioso.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Qué sistema estimula las anfetaminas?",
+            "respuestas": 
+                [
+                    {"texto":"Sistema nervioso central.","correcto":"1"},
+                    {"texto":"Sistema digestivo.","correcto":"0"},
+                    {"texto":"Sistema respiratorio.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿consumir drogas aumenta la potencia sexual?",
+            "respuestas": 
+                [
+                    {"texto":"Depende de la cantidad.","correcto":"0"},
+                    {"texto":"Si aumenta la potencia sexual.","correcto":"0"},
+                    {"texto":"Disminuye la potencia sexual.","correcto":"1"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿consumir te lleva a la muerte?",
+            "respuestas": 
+                [
+                    {"texto":"Consumir cualquier sustancia en exceso puede llevarte a la muerte.","correcto":"1"},
+                    {"texto":"Consumir no te lleva a la muerte.","correcto":"0"},
+                    {"texto":"Solo la abstinencia a una sustancia te lleva a la muerte.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Qué sucede si mezclas drogas con alcohol?",
+            "respuestas": 
+                [
+                    {"texto":"Te dormís.","correcto":"0"},
+                    {"texto":"No sucede nada ","correcto":"0"},
+                    {"texto":"Aumenta la probabilidad de sobredosis y riesgo de muerte.","correcto":"1"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Afecta fumar durante el embarazo? ",
+            "respuestas": 
+                [
+                    {"texto":"Depende de la cantidad.","correcto":"0"},
+                    {"texto":"Si ","correcto":"1"},
+                    {"texto":"No.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Cuáles son las consecuencias físicas del consumo reiterado de alcohol?",
+            "respuestas": 
+                [
+                    {"texto":"Cansancio.","correcto":"0"},
+                    {"texto":"Deterioro de hígado, riñones y corazón, a si como también el sistema nervioso central.    },","correcto":"1"},
+                    {"texto":"Hemorragias.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Quiénes sufren las consecuencias del consumo de tabaco?",
+            "respuestas": 
+                [
+                    {"texto":"el consumidor y la gente de su entorno.","correcto":"1"},
+                    {"texto":"Solo el consumidor.","correcto":"0"},
+                    {"texto":"A nadie le afecta.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿el consumo excesivo de alcohol afecta de igual manera a hombres que a mujeres?",
+            "respuestas": 
+                [
+                    {"texto":"A los dos por igual.","correcto":"0"},
+                    {"texto":"A los hombres.","correcto":"0"},
+                    {"texto":"A las mujeres.","correcto":"1"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Hasta qué horario se podrá ingresar a un boliche bailable?",
+            "respuestas": 
+                [
+                    {"texto":"2:00hs.","correcto":"1"},
+                    {"texto":"3:00hs.","correcto":"0"},
+                    {"texto":"5:00hs","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿En qué horario deberán dejar de vender bebidas alcohólicas los boliches lables?",
+            "respuestas": 
+                [
+                    {"texto":"3:00hs.","correcto":"0"},
+                    {"texto":"4:15hs.","correcto":"0"},
+                    {"texto":"4:30hs.","correcto":"1"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿con que bebida deben abastecer el lugar gratuitamente durante toda la noche?",
+            "respuestas": 
+                [
+                    {"texto":"Vino tinto","correcto":"0"},
+                    {"texto":"Agua potable.","correcto":"1"},
+                    {"texto":"Cualquier tipo de bebida blanca. ","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Hasta qué horario podrán permanecer los menores de entre 14 y 17 años en un establecimiento bailable? ",
+            "respuestas": 
+                [
+                    {"texto":"22:00hs.","correcto":"0"},
+                    {"texto":"23:00hs.","correcto":"1"},
+                    {"texto":"24:00hs.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿En qué horario se deja de vender bebidas alcohólicas en supermercados y kioscos?",
+            "respuestas": 
+                [
+                    {"texto":"21:00hs.","correcto":"1"},
+                    {"texto":"22:00hs.","correcto":"0"},
+                    {"texto":"23:00hs.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Los menores de entre 14 y 17 años pueden concurrir a un establecimiento bailable el mismo horario que los mayores de 18 años?",
+            "respuestas": 
+                [
+                    {"texto":"Si ","correcto":"0"},
+                    {"texto":"Depende de la altura de la persona.","correcto":"0"},
+                    {"texto":"No. ","correcto":"1"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Qué significan las siglas REBA?",
+            "respuestas": 
+                [
+                    {"texto":"Registro provincial de comercialización de bebidas alcohólicas. ","correcto":"1"},
+                    {"texto":"Registro de buenas actitudes a la hora de vender alcohol.","correcto":"0"},
+                    {"texto":"Registro extenso a boliches argentinos.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Desde qué edad se le puede vender alcohol a una persona?",
+            "respuestas": 
+                [
+                    {"texto":"17 años","correcto":"0"},
+                    {"texto":"18 años.","correcto":"1"},
+                    {"texto":"21 años.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Si a las 21:00hs se deja de vender en supermercados, kioscos, etc. bebidas alcohólicas en que horario se ede volver a vender la misma?",
+            "respuestas": 
+                [
+                    {"texto":"6:00hs.","correcto":"0"},
+                    {"texto":"10:00hs.","correcto":"1"},
+                    {"texto":"14:00hs.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Con que fin se realiza el “pasa derecho” en el programa NOCTOS?",
+            "respuestas": 
+                [
+                    {"texto":"Fomentar hábitos responsables en los jóvenes durante la actividad nocturna.","correcto":"1"},
+                    {"texto":"No tiene ningún fin es solo un juego recreativo.","correcto":"0"},
+                    {"texto":"Fomenta un hábito responsable en la postura de los jóvenes.","correcto":"0"}
+                ]
+        }
+    ]
+}

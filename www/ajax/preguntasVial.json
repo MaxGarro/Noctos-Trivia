@@ -1,0 +1,654 @@
+{
+"preguntas":
+    [
+        {
+            "tipo": "1",
+            "pregunta" : " ¿Qué velocidades máximas están permitidas para circular con motocicletas?",
+            "respuestas": 
+                [
+                    {"texto":"LAS MISMAS VELOCIDADES MÁXIMAS PARA AUTOMÓVILES.","correcto":"1"},
+                    {"texto":"LA MITAD DE LA VELOCIDAD MÁXIMAPERMITIDA PARA UN AUTOMOTORES.","correcto":"0"},
+                    {"texto":"CON CARÁCTER GENERAL 100KM./H.","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " Con lluvia el ciclomotor se adhiere mejor a la calzada si:",
+            "respuestas": 
+                [
+                    {"texto":"Se aumenta la presión de inflado del neumático","correcto":"0"},
+                    {"texto":"El neumático conserva el dibujo en toda la superficie.","correcto":"1"},
+                    {"texto":"Se baja la presión de inflado del neumático.","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿Qué tipo de casco deben utilizar obligatoriamente todas las personas que circulan motocicletas o vehículos similares?",
+            "respuestas": 
+                [
+                    {"texto":"Los que cumplen las normas IRAM 3621/62.","correcto":"1"},
+                    {"texto":"Cualquier casco que cubra bien la cabeza. ","correcto":"0"},
+                    {"texto":"Los que cumplen las normas ISO 9001.","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " Si circula conduciendo una motocicleta y es requerido por una autoridad policial a que le muestre la documentación de la misma ¿Está obligado a presentar dicha documentación?",
+            "respuestas": 
+                [
+                    {"texto":"No.","correcto":"0"},
+                    {"texto":"Sí.","correcto":"1"},
+                    {"texto":"Solo cuando se circula por vías fuera de la ciudad.","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿Qué deben hacer los conductores para facilitar el paso a un coche de bomberos en vicio de emergencia?  ",
+            "respuestas": 
+                [
+                    {"texto":"Aumentar la velocidad para no ser un obstáculo.","correcto":"0"},
+                    {"texto":"Avisar a otros conductores usando repetidamente la bocina.","correcto":"0"},
+                    {"texto":"Apartarse normalmente a la derecha y, si es necesario, detenerse.","correcto":"1"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " En una vía urbana de sentido único ¿dónde se colocará una motocicleta  para girar a izquierda?",
+            "respuestas": 
+                [
+                    {"texto":"En el centro de la calzada.","correcto":"0"},
+                    {"texto":"En el borde derecho de la calzada.","correcto":"0"},
+                    {"texto":"En el borde izquierdo de la calzada.","correcto":"1"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿De qué color son las luces delanteras de los vehículos?",
+            "respuestas": 
+                [
+                    {"texto":"Rojo.","correcto":"0"},
+                    {"texto":"Blanco.","correcto":"1"},
+                    {"texto":"Amarillo.","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿Qué vehículo se considera ciclomotor, según define la Ley?",
+            "respuestas": 
+                [
+                    {"texto":"Vehículo similar a una moto de 50 c.c. de cilindrada, que no supera los 50 km./h. de  },velocidad.","correcto":"1"},
+                    {"texto":"Vehículo de dos ruedas con dos o más asientos.","correcto":"0"},
+                    {"texto":"Motocicleta tipo \"sidecar\".","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " En caso de accidente, el conductor de una motocicleta presenta, en relación con el ductor de un automóvil:",
+            "respuestas": 
+                [
+                    {"texto":"Menos riesgo de resultar herido.","correcto":"0"},
+                    {"texto":"Igual riesgo de resultar herido.","correcto":"0"},
+                    {"texto":"Mayor riesgo de resultar herido.","correcto":"1"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿Está permitido estacionar motovehículos en la vereda?",
+            "respuestas": 
+                [
+                    {"texto":"Solo si la vereda es ancha.","correcto":"0"},
+                    {"texto":"Únicamente si es feriado.","correcto":"0"},
+                    {"texto":"No, no está permitido.","correcto":"1"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿Cuál es la profundidad mínima que debe tener el neumático de una motocicleta o ciclo motorizado?",
+            "respuestas": 
+                [
+                    {"texto":"1,5mm.","correcto":"0"},
+                    {"texto":"1,0 mm.","correcto":"1"},
+                    {"texto":"0,5 mm.","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " El uso de casco es obligatorio para quien conduce ciclomotores, motos y triciclos orizados ¿también es bligatorio para los acompañantes?",
+            "respuestas": 
+                [
+                    {"texto":"Solo cuando circula por una ruta o autopista.","correcto":"0"},
+                    {"texto":"Únicamente en zonas céntricas.","correcto":"0"},
+                    {"texto":"Siempre durante la marcha.","correcto":"1"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " Al acelerar una motocicleta ¿hacia dónde se desplaza su masa?",
+            "respuestas": 
+                [
+                    {"texto":"Se distribuirá de igual forma sobre cada rueda.","correcto":"0"},
+                    {"texto":"Hacia la rueda trasera.","correcto":"1"},
+                    {"texto":"Hacia la rueda delantera.","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " En las motocicletas la rueda matriz es normalmente: ",
+            "respuestas": 
+                [
+                    {"texto":"La trasera.","correcto":"1"},
+                    {"texto":"La delantera.","correcto":"0"},
+                    {"texto":"Las dos.","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " En una motocicleta ¿se puede transportar un niño situado entre el manubrio y el ductor?",
+            "respuestas": 
+                [
+                    {"texto":"En ningún caso.","correcto":"1"},
+                    {"texto":"Sí, con el correspondiente casco de su talla.","correcto":"0"},
+                    {"texto":"Sí, pero solo si el conductor es el padre, la madre o persona autorizada. ","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : "Quién es el responsable civil por un accidente de tránsito producido por un menor edad poseedor de una icencia de conductor?",
+            "respuestas": 
+                [
+                    {"texto":"El acompañante del menor ","correcto":"0"},
+                    {"texto":"El que firmo la autorización para obtener la licencia.","correcto":"1"},
+                    {"texto":"El que autorizo el uso del vehículo","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿Quién tiene prioridad de paso en una rotonda?",
+            "respuestas": 
+                [
+                    {"texto":"El que intenta ingresar a la misma","correcto":"0"},
+                    {"texto":"El que llega primero a la rotonda","correcto":"0"},
+                    {"texto":"El que está circulando por la misma","correcto":"1"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " En la ciudad ¿Está permitido circular marcha atrás?",
+            "respuestas": 
+                [
+                    {"texto":"Solo para estacionar, entrar o salir de un garaje o salvar un obstáculo.","correcto":"1"},
+                    {"texto":"Cuando es por pocos metros.","correcto":"0"},
+                    {"texto":"Solamente de día.","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿Qué distancia debe dejarse libre cuando se va a estacionar frente a la entrada de pitales, escuelas, emplos u otros organismos públicos?",
+            "respuestas": 
+                [
+                    {"texto":"10 metros de cada lado de la entrada.","correcto":"1"},
+                    {"texto":"Todo el frente del edificio.","correcto":"0"},
+                    {"texto":"5 metros de cada lado de la entrada.","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " En un día de niebla ¿Qué precauciones se tienen que tomar?",
+            "respuestas": 
+                [
+                    {"texto":"Dejar una distancia de 50 metros respecto del vehículo que circula delante.","correcto":"0"},
+                    {"texto":"No manejar, esperar que la niebla pase.","correcto":"0"},
+                    {"texto":"Adaptar la velocidad del vehículo a la visibilidad de la vía.","correcto":"1"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿Cuál es la velocidad máxima permitida en calles?",
+            "respuestas": 
+                [
+                    {"texto":"30 km/h.","correcto":"0"},
+                    {"texto":"40 km/h.","correcto":"1"},
+                    {"texto":"50km/h.","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " Entre los efectos que produce el alcohol en el conductor se encuentra la: ",
+            "respuestas": 
+                [
+                    {"texto":"Ampliación del campo visual.","correcto":"0"},
+                    {"texto":"Disminución del tiempo de frenado.","correcto":"0"},
+                    {"texto":"Incorrecta apreciación de distancias y velocidades.","correcto":"1"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿De qué color son las señales informativas?",
+            "respuestas": 
+                [
+                    {"texto":"Verde ","correcto":"0"},
+                    {"texto":"Azul. ","correcto":"1"},
+                    {"texto":"Rojo. ","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿De qué color son las señales reglamentarias?",
+            "respuestas": 
+                [
+                    {"texto":"Verde.","correcto":"0"},
+                    {"texto":"Azul.","correcto":"0"},
+                    {"texto":"Rojo.","correcto":"1"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿De qué color son las señales de advertencia?",
+            "respuestas": 
+                [
+                    {"texto":"Verde.","correcto":"0"},
+                    {"texto":"Azul.","correcto":"0"},
+                    {"texto":"Amarillo.","correcto":"1"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿De qué color son las luces traseras del auto que se iluminan cuando el vehículo na? ",
+            "respuestas": 
+                [
+                    {"texto":"Rojo.","correcto":"1"},
+                    {"texto":"Blancas.","correcto":"0"},
+                    {"texto":"Amarillas.","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿De qué color son las luces de giro?",
+            "respuestas": 
+                [
+                    {"texto":"Rojo.","correcto":"0"},
+                    {"texto":"Amarillo.","correcto":"1"},
+                    {"texto":"Blancas.","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿Qué significa la sigla VTV?",
+            "respuestas": 
+                [
+                    {"texto":"Verificación técnica vial.","correcto":"0"},
+                    {"texto":"Viendo técnicamente el vehículo.","correcto":"0"},
+                    {"texto":"Verificación técnica vehicular.","correcto":"1"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " ¿Cuál es el nivel máximo de alcoholemiaadmitido para conducir un auto particular?",
+            "respuestas": 
+                [
+                    {"texto":"0,8gm. Por litro de sangre.","correcto":"0"},
+                    {"texto":"0,5gm. Por litro de sangre.","correcto":"1"},
+                    {"texto":"1,5gm. Por litro de sangre.","correcto":"0"}
+                ]
+        },{
+            "tipo": "1",
+            "pregunta" : " cuando la senda peatonal no está marcada ¿por dónde se debe cruzar la calle?",
+            "respuestas": 
+                [
+                    {"texto":"Por mitad de cuadra.","correcto":"0"},
+                    {"texto":"No se puede cruzar.","correcto":"0"},
+                    {"texto":"Por la esquina.","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Qué es un coito?",
+            "respuestas": 
+                [
+                    {"texto":"Un anticonceptivo.","correcto":"0"},
+                    {"texto":"Una palabra inventada","correcto":"0"},
+                    {"texto":"Acto sexual.","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Qué cromosomas definen al sexo masculino?",
+            "respuestas": 
+                [
+                    {"texto":" XX","correcto":"0"},
+                    {"texto":"XY","correcto":"1"},
+                    {"texto":"YY","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Qué cromosoma definen el sexo femenino?",
+            "respuestas": 
+                [
+                    {"texto":"XX","correcto":"1"},
+                    {"texto":"XY","correcto":"0"},
+                    {"texto":"YY","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Qué significa ETS?",
+            "respuestas": 
+                [
+                    {"texto":"Estudios totales de la sexualidad","correcto":"0"},
+                    {"texto":"Enfermedades de transmisión sexual","correcto":"1"},
+                    {"texto":"Estado tántrico sexual.","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Cuáles de estas son enfermedades de transmisión sexual? ",
+            "respuestas": 
+                [
+                    {"texto":"Cáncer, neumonía y obesidad","correcto":"0"},
+                    {"texto":"Pie de atleta, gastritis y dolor de cabeza","correcto":"0"},
+                    {"texto":"Gonorrea, sífilis y linfogranuloma venéreo.","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Cuál de estos son métodos anticonceptivos?",
+            "respuestas": 
+                [
+                    {"texto":"Sexo telefónico y virtual","correcto":"0"},
+                    {"texto":"Preservativo y pastillas anticonceptivas","correcto":"1"},
+                    {"texto":"Aspirinetas e infusiones a base de jengibre.","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿En qué periodo del humano las hormonas sexuales se activan dando comienzo a los bios físicos y icológicos?",
+            "respuestas": 
+                [
+                    {"texto":"De 5 a 8 años","correcto":"0"},
+                    {"texto":"De 10 a 14 años ","correcto":"1"},
+                    {"texto":"De 18 a 25 años ","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Se puede quedar embarazada si se tiene relaciones sexuales durante la struación?",
+            "respuestas": 
+                [
+                    {"texto":"No es posible ","correcto":"0"},
+                    {"texto":"Si es posible ","correcto":"1"},
+                    {"texto":"No existe la menstruación","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Cuál de las siguientes es el método más efectivo para reducir el riesgo de traer una enfermedad de ansmisión sexual?",
+            "respuestas": 
+                [
+                    {"texto":"Higiene intima luego de mantener relaciones sexuales","correcto":"0"},
+                    {"texto":"Usar preservativo durante toda la relación sexual ","correcto":"1"},
+                    {"texto":"Abstinencia sexual","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Cuál de los siguientes son órganos sexuales femeninos internos?",
+            "respuestas": 
+                [
+                    {"texto":"Riñón, páncreas e intestino ","correcto":"0"},
+                    {"texto":"Ovarios, trompa de Falopio y el útero","correcto":"1"},
+                    {"texto":"Cerebro, estómago y pulmón","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿las mujeres que amamantan pueden quedar embarazadas?",
+            "respuestas": 
+                [
+                    {"texto":"No pueden quedar embarazadas","correcto":"0"},
+                    {"texto":"Recién después de un año ","correcto":"0"},
+                    {"texto":"Si puede quedar embarazada","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Cuál de las siguientes es un método anticonceptivo denominado de emergencia?",
+            "respuestas": 
+                [
+                    {"texto":"Preservativo","correcto":"0"},
+                    {"texto":"Pastillas del día después ","correcto":"1"},
+                    {"texto":"DIU","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Las pastillas anticonceptivas previenen enfermedades venéreas?",
+            "respuestas": 
+                [
+                    {"texto":"Solo previene el embarazo ","correcto":"1"},
+                    {"texto":"Solo previene el SIDA ","correcto":"0"},
+                    {"texto":"Si previene enfermedades venéreas ","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Cuál es el método anticonceptivo más utilizado por el hombre?",
+            "respuestas": 
+                [
+                    {"texto":"DIU","correcto":"0"},
+                    {"texto":"Preservativo ","correcto":"1"},
+                    {"texto":"Aspirina ","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " En una relación sexual ¿Puede producirse la fecundación antes de que el hombre cule?",
+            "respuestas": 
+                [
+                    {"texto":"No puede producirse","correcto":"0"},
+                    {"texto":"No, ya que el líquido que segrega el hombre es para humectar","correcto":"0"},
+                    {"texto":"Si puede producirse","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿El virus de VIH puede pasar a través del preservativo?",
+            "respuestas": 
+                [
+                    {"texto":"No ","correcto":"1"},
+                    {"texto":"Si ","correcto":"0"},
+                    {"texto":"No, solo pueden pasar los espermatozoides ","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Qué significa las siglas VIH?",
+            "respuestas": 
+                [
+                    {"texto":"Virus de inmunodeficiencia humana","correcto":"1"},
+                    {"texto":"Virus incapaz de tocar hermanos ","correcto":"0"},
+                    {"texto":"Siglas que identifica a venezolanos, indios y holandeses.","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Son necesarios los controles durante el embarazo? ",
+            "respuestas": 
+                [
+                    {"texto":"No ","correcto":"0"},
+                    {"texto":"Con ir una sola vez basta","correcto":"0"},
+                    {"texto":"Si","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Qué es el himen? ",
+            "respuestas": 
+                [
+                    {"texto":"Tejido fino que cubre la entrada de la vagina","correcto":"1"},
+                    {"texto":"Glándula mamaria ","correcto":"0"},
+                    {"texto":"Venas que recubre al ovulo","correcto":"0"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Cuál es el principal fuente de intercambio entre el feto y la madre?",
+            "respuestas": 
+                [
+                    {"texto":"El ovario ","correcto":"0"},
+                    {"texto":"Las mamas ","correcto":"0"},
+                    {"texto":"La placenta ","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Los preservativos tienen fechas de vencimiento?",
+            "respuestas": 
+                [
+                    {"texto":"Solo los productos alimenticios tienen fecha de vencimiento","correcto":"0"},
+                    {"texto":"Los preservativos solo tienen número de lote","correcto":"0"},
+                    {"texto":"Si tienen fecha de vencimiento","correcto":"1"}
+                ]
+        },{
+            "tipo": "2",
+            "pregunta" : " ¿Los preservativos se pueden utilizar más de una vez? ",
+            "respuestas": 
+                [
+                    {"texto":"No.","correcto":"1"},
+                    {"texto":"Sí.","correcto":"0"},
+                    {"texto":"Depende de la marca, algunos pueden utilizarse varias veces.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Qué significa la siglas SEDRONAR?",
+            "respuestas": 
+                [
+                    {"texto":"Secretaria de programación para la prevención de la drogadicción y la lucha contra el     },narcotráfico. ","correcto":"1"},
+                    {"texto":"Secretaria por la prevención de la drogadicción en la argentina. ","correcto":"0"},
+                    {"texto":"Secretaria educada en drogadicción y narcotráfico.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Qué es la adicción?",
+            "respuestas": 
+                [
+                    {"texto":"Una práctica religiosa ","correcto":"0"},
+                    {"texto":"DEPENDENCIA DE SUSTANCIAS, ACTIVIDAD O RELACIÓN.","correcto":"1"},
+                    {"texto":"un TIC nervioso.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Qué sistema estimula las anfetaminas?",
+            "respuestas": 
+                [
+                    {"texto":"Sistema nervioso central.","correcto":"1"},
+                    {"texto":"Sistema digestivo.","correcto":"0"},
+                    {"texto":"Sistema respiratorio.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿consumir drogas aumenta la potencia sexual?",
+            "respuestas": 
+                [
+                    {"texto":"Depende de la cantidad.","correcto":"0"},
+                    {"texto":"Si aumenta la potencia sexual.","correcto":"0"},
+                    {"texto":"Disminuye la potencia sexual.","correcto":"1"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿consumir te lleva a la muerte?",
+            "respuestas": 
+                [
+                    {"texto":"Consumir cualquier sustancia en exceso puede llevarte a la muerte.","correcto":"1"},
+                    {"texto":"Consumir no te lleva a la muerte.","correcto":"0"},
+                    {"texto":"Solo la abstinencia a una sustancia te lleva a la muerte.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Qué sucede si mezclas drogas con alcohol?",
+            "respuestas": 
+                [
+                    {"texto":"Te dormís.","correcto":"0"},
+                    {"texto":"No sucede nada ","correcto":"0"},
+                    {"texto":"Aumenta la probabilidad de sobredosis y riesgo de muerte.","correcto":"1"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Afecta fumar durante el embarazo? ",
+            "respuestas": 
+                [
+                    {"texto":"Depende de la cantidad.","correcto":"0"},
+                    {"texto":"Si ","correcto":"1"},
+                    {"texto":"No.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Cuáles son las consecuencias físicas del consumo reiterado de alcohol?",
+            "respuestas": 
+                [
+                    {"texto":"Cansancio.","correcto":"0"},
+                    {"texto":"Deterioro de hígado, riñones y corazón, a si como también el sistema nervioso central.    },","correcto":"1"},
+                    {"texto":"Hemorragias.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Quiénes sufren las consecuencias del consumo de tabaco?",
+            "respuestas": 
+                [
+                    {"texto":"el consumidor y la gente de su entorno.","correcto":"1"},
+                    {"texto":"Solo el consumidor.","correcto":"0"},
+                    {"texto":"A nadie le afecta.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿el consumo excesivo de alcohol afecta de igual manera a hombres que a mujeres?",
+            "respuestas": 
+                [
+                    {"texto":"A los dos por igual.","correcto":"0"},
+                    {"texto":"A los hombres.","correcto":"0"},
+                    {"texto":"A las mujeres.","correcto":"1"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Hasta qué horario se podrá ingresar a un boliche bailable?",
+            "respuestas": 
+                [
+                    {"texto":"2:00hs.","correcto":"1"},
+                    {"texto":"3:00hs.","correcto":"0"},
+                    {"texto":"5:00hs","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿En qué horario deberán dejar de vender bebidas alcohólicas los boliches lables?",
+            "respuestas": 
+                [
+                    {"texto":"3:00hs.","correcto":"0"},
+                    {"texto":"4:15hs.","correcto":"0"},
+                    {"texto":"4:30hs.","correcto":"1"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿con que bebida deben abastecer el lugar gratuitamente durante toda la noche?",
+            "respuestas": 
+                [
+                    {"texto":"Vino tinto","correcto":"0"},
+                    {"texto":"Agua potable.","correcto":"1"},
+                    {"texto":"Cualquier tipo de bebida blanca. ","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Hasta qué horario podrán permanecer los menores de entre 14 y 17 años en un ablecimiento bailable? ",
+            "respuestas": 
+                [
+                    {"texto":"22:00hs.","correcto":"0"},
+                    {"texto":"23:00hs.","correcto":"1"},
+                    {"texto":"24:00hs.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿En qué horario se deja de vender bebidas alcohólicas en supermercados y cos?",
+            "respuestas": 
+                [
+                    {"texto":"21:00hs.","correcto":"1"},
+                    {"texto":"22:00hs.","correcto":"0"},
+                    {"texto":"23:00hs.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Los menores de entre 14 y 17 años pueden concurrir a un establecimiento bailable el mismo horario que s mayores de 18 años?",
+            "respuestas": 
+                [
+                    {"texto":"Si ","correcto":"0"},
+                    {"texto":"Depende de la altura de la persona.","correcto":"0"},
+                    {"texto":"No. ","correcto":"1"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Qué significan las siglas REBA?",
+            "respuestas": 
+                [
+                    {"texto":"Registro provincial de comercialización de bebidas alcohólicas. ","correcto":"1"},
+                    {"texto":"Registro de buenas actitudes a la hora de vender alcohol.","correcto":"0"},
+                    {"texto":"Registro extenso a boliches argentinos.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Desde qué edad se le puede vender alcohol a una persona?",
+            "respuestas": 
+                [
+                    {"texto":"17 años","correcto":"0"},
+                    {"texto":"18 años.","correcto":"1"},
+                    {"texto":"21 años.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Si a las 21:00hs se deja de vender en supermercados, kioscos, etc. bebidas ohólicas en que horario se ede volver a vender la misma?",
+            "respuestas": 
+                [
+                    {"texto":"6:00hs.","correcto":"0"},
+                    {"texto":"10:00hs.","correcto":"1"},
+                    {"texto":"14:00hs.","correcto":"0"}
+                ]
+        },{
+            "tipo": "3",
+            "pregunta" : " ¿Con que fin se realiza el “pasa derecho” en el programa NOCTOS?",
+            "respuestas": 
+                [
+                    {"texto":"Fomentar hábitos responsables en los jóvenes durante la actividad nocturna.","correcto":"1"},
+                    {"texto":"No tiene ningún fin es solo un juego recreativo.","correcto":"0"},
+                    {"texto":"Fomenta un hábito responsable en la postura de los jóvenes.","correcto":"0"}
+                ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+body{
+	background:#000000;
+	color:#fff;
+	text-align: center;
+	font-family: 'Source Sans Pro';
+}
+.appNoctos{
+	margin:40px 10px;
+}
+.celeste{
+	color:#009ADA;
+}
+.rosa{
+	color:#BA007C;
+}
+h1{
+	text-align: left;
+    font-weight: 900;
+    margin: 10px 0 10px 0
+}
+h2{
+	margin:10px;
+	padding: 10px;
+	text-transform: none;
+}
+button{
+	margin-bottom: 10px;
+	margin-top: 10px;
+    border: none;
+    border-radius: 50px;
+	min-height: 50px;
+    padding: 20px 10px;
+    width: 100%;
+    text-align: center;
+    color: #fff!important;
+    text-transform: uppercase;
+    outline: none;
+    font-weight: 900;
+}
+button.celeste{
+	background:#009ADA!important;
+}
+button.verde{
+	background:#22bd5a!important;
+}
+button.rojo{
+	background:#bd2245!important;
+}
+button.rosa{
+	background:#BA007C!important;
+}
+.titular{
+    text-align: center;
+    font-size: 24px;
+    padding: 40px 0;
+}
+.puntaje{
+	text-align: center;
+	font-size: 60px;
+}
