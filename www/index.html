@@ -70,11 +70,18 @@
 
                     function aleatorio(min, max) {
                         var num = Math.floor(Math.random()*(max-min+1))+min;
-                        /*if(numPregunta.includes(num)){
-                           /*aleatorio(min, max);
-                        }else{*/
+
+                        for(var i = 0; i < numPregunta.length; i++) {
+                            if (numPregunta[i] == num) {
+                                console.log('se');
+                                  aleatorio(min, max);
+                                break;
+                            }
+                        }
+
+                        if(i == numPregunta.length){
                             numPregunta.push(num);
-                        /*}*/
+                        }
                     }
 
 
@@ -89,7 +96,7 @@
                             }
                             //jsonPreguntas = data.preguntas;
 
-                        $(capa).html(data.preguntas[0].pregunta + TotalPreguntas);
+                        $(capa).html(data.preguntas[numPregunta[0]].pregunta + TotalPreguntas);
                        // $(capa).html(jsonPreguntas[1].pregunta);
                     })
 /*
