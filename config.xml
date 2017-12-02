@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="escuela.manejo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Trivia Noctos</name>
+    <name>Noctos Escuela de Manejo</name>
     <description>
-        Trivia Noctos, Verano 2018
+        Aplicacion de prueba
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
@@ -12,7 +12,6 @@
     <preference name="android-minSdkVersion" value="14" />
     <preference name="orientation" value="portrait" />
     <preference name="AutoHideSplashScreen" value="true" />
-    <preference name="Fullscreen" value="true" />
     <plugin name="cordova-plugin-device-motion" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
@@ -111,13 +110,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-
-	<!-- A wildcard can be used to whitelist the entire network,
-		 over HTTP and HTTPS.
-		 *NOT RECOMMENDED* -->
-	<allow-navigation href="*" />
-
-    
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
