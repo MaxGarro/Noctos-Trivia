@@ -63,12 +63,12 @@
                             horaActual = new Date().getTime();
                             var tiempoRestante   = horaFin - horaActual;
 
-                            var minutos = Math.floor((tiempoRestante % (1000 * 60 * 60)) / (1000 * 60));
-                            var segundos = Math.floor((tiempoRestante % (1000 * 60)) / 1000);
-                            minutos = (String(minutos).length ==  1) ? "0" + String(minutos) : minutos;
-                            segundos = (String(segundos).length ==  1) ? "0" + String(segundos) : segundos;
+                            //var minutos = Math.floor((tiempoRestante % (1000 * 60 * 60)) / (1000 * 60));
+                            //var segundos = Math.floor((tiempoRestante % (1000 * 60)) / 1000);
+                            //minutos = (String(minutos).length ==  1) ? "0" + String(minutos) : minutos;
+                            //segundos = (String(segundos).length ==  1) ? "0" + String(segundos) : segundos;
 
-                            $(counter).html('Tiempo: ' + minutos + ' : ' + segundos);
+                            //$(counter).html('Tiempo: ' + minutos + ' : ' + segundos);
 
                             if (tiempoRestante < 10000){
                                 $(counter).addClass('rojo');
