@@ -186,6 +186,8 @@
                     $(capa).html('');
                     //HTML DE PREGUNTA
                     //<h1 class="celeste">PREGUNTA_ <label id="preguntaNum" class="rosa">1</label></h1>
+
+
                     $('<h1/>',{
                         'class' : 'celeste titular',
                         'text'  : 'ENCUESTA TERMINADA PUNTAJE  '
@@ -195,12 +197,14 @@
                         'class' : 'rosa puntaje',
                         'text'  : Puntaje + ' de ' + cantPreguntas 
                     }).appendTo(capa);    
-
-                    if (Puntaje >= PuntajeCorrecto){
+                    if (tiempo == 0){
+                        $('<h2/>',{'text'  : 'Tu tiempo se agoto, Lo sentimos!'}).appendTo(capa);
+                    }else if (Puntaje >= PuntajeCorrecto){
                         $('<h2/>',{'text'  : 'Bien Hecho!'}).appendTo(capa);
                     }else{
-                        $('<h2/>',{'text'  : 'Lo sentimos!'}).appendTo(capa);
+                        $('<h2/>',{'text'  : 'Lo sentimos, debes contestar 7 preguntas correctamente!'}).appendTo(capa);
                     }
+
 
                     $('<button/>',{
                         'class'          : 'rosa',
@@ -235,12 +239,11 @@
                     }
                     $('.preguntaTrivia[data-correcto="1"]').addClass('verde');
 
-
                     if($('#preguntaNum').data('valor') == cantPreguntas){
                         setTimeout(function(){
                             estadoTrivia = false;
                              finTrivia();
-                        }, 2000);    
+                        }, 2000);     
 
                     }else{
                         setTimeout(function(){
