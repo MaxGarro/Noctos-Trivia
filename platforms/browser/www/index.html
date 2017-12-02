@@ -31,7 +31,7 @@
             app.initialize();
             jQuery(document).ready(function($) {
                 var capa = '#pregunta';
-                var JsonPreguntas = Array();
+                var jsonPreguntas = Array();
 
                 //Cantidad de Preguntas a Hacer
                 var cantPreguntas = 10;
@@ -46,8 +46,10 @@
                 //Inicializar
                 function iniciarTrivia(){
                     Puntaje = 0;
-                    $(capa).html('');
                     numPregunta = new Array();
+                    
+
+                    $(capa).html('');
                     //HTML DE PREGUNTA
                     //<h1 class="celeste">PREGUNTA_ <label id="preguntaNum" class="rosa">1</label></h1>
                     var preguntaNum = $('<h1/>',{
@@ -65,125 +67,38 @@
                         'id'             : 'IniciarTrivia',
                         'text'           : 'COMENZAR'
                     }).appendTo(capa); 
-/*
+
                     function aleatorio(min, max) {
                         var num = Math.floor(Math.random()*(max-min+1))+min;
-                        if(numPregunta.includes(num)){
-                            aleatorio(min, max);
-                        }else{
+
+                        for(var i = 0; i < numPregunta.length; i++) {
+                            if (numPregunta[i] == num) {
+                                console.log('se');
+                                  aleatorio(min, max);
+                                break;
+                            }
+                        }
+
+                        if(i == numPregunta.length){
                             numPregunta.push(num);
                         }
                     }
-*/
 
 
                      $.getJSON( "ajax/preguntas.json", function( data ) {
-                        /*
+                        
                             //Cantidad de Preguntas en el JSON
                             var TotalPreguntas = Object.keys(data.preguntas).length - 1;
+
                             //Conseguir Preguntas Aleatorias
                             for (i = 0; i < cantPreguntas; i++) { 
                                 aleatorio(0,TotalPreguntas);
                             }
-                            //jsonPreguntas = data.preguntas;
-*/
-                        $(capa).html(data.preguntas[0].pregunta);
+                            jsonPreguntas = data.preguntas;
+
+                        //$(capa).html(data.preguntas[numPregunta[0]].pregunta + TotalPreguntas);
                        // $(capa).html(jsonPreguntas[1].pregunta);
                     })
-/*
-                    .done(function() { alert('getJSON request succeeded!'); })
-                    .fail(function() { alert('getJSON request failed! '); })
-                    .always(function() { alert('getJSON request ended!'); });*/
-                }
-
-
-                //Comenzar Trivia
-                iniciarTrivia();
-
-/*
-
-                var JsonPreguntas = Array();
-
-                //Cantidad de Preguntas a Hacer
-                var cantPreguntas = 10;
-
-                //Numeros de Preguntas aleatorias
-                var numPregunta = new Array();
-
-                //Puntaje
-                var Puntaje = 0;
-                var PuntajeCorrecto = 7;
-
-                //Inicializar
-                function iniciarTrivia(){
-                    Puntaje = 0;
-                    $(capa).html('');
-                    numPregunta = new Array();
-                    //HTML DE PREGUNTA
-                    //<h1 class="celeste">PREGUNTA_ <label id="preguntaNum" class="rosa">1</label></h1>
-                    var preguntaNum = $('<h1/>',{
-                        'class' : 'celeste titular',
-                        'text'  : 'BIENVENIDO A '
-                    }).append($('<label/>',{'class':'rosa','text' : 'TRIVIA NOCTOS'})).appendTo(capa);
-                    
-                    //<h2 id=preguntaTexto>TEXTO</h2>
-                    var preguntaTexto = $('<h2/>',{
-                        'text'  : '¿Comenzamos?'
-                    }).appendTo(capa);
-
-                    var respueta = $('<button/>',{
-                        'class'          : 'verde',
-                        'id'             : 'IniciarTrivia',
-                        'text'           : 'COMENZAR'
-                    }).appendTo(capa); 
-
-                    function aleatorio(min, max) {
-                        var num = Math.floor(Math.random()*(max-min+1))+min;
-                        if(numPregunta.includes(num)){
-                            aleatorio(min, max);
-                        }else{
-                            numPregunta.push(num);
-                        }
-                    }
-
-                    $.getJSON( "ajax/preguntas.json", function( data ) {
-                        //Cantidad de Preguntas en el JSON
-                        var TotalPreguntas = Object.keys(data.preguntas).length - 1;
-                        //Conseguir Preguntas Aleatorias
-                        for (i = 0; i < cantPreguntas; i++) { 
-                            aleatorio(0,TotalPreguntas);
-                        }
-                        JsonPreguntas = data.preguntas;
-                        //crearPregunta(0, data.preguntas[numPregunta[0]]);
-                    });
-                }
-
-                //Finalizar
-                function finTrivia(){
-                    $(capa).html('');
-                    //HTML DE PREGUNTA
-                    //<h1 class="celeste">PREGUNTA_ <label id="preguntaNum" class="rosa">1</label></h1>
-                    $('<h1/>',{
-                        'class' : 'celeste titular',
-                        'text'  : 'ENCUESTA TERMINADA PUNTAJE  '
-                    }).appendTo(capa);
-
-                    $('<h1/>',{
-                        'class' : 'rosa puntaje',
-                        'text'  : Puntaje + ' de 10' 
-                    }).appendTo(capa);    
-
-                    if (Puntaje >= PuntajeCorrecto){
-                        $('<h2/>',{'text'  : 'Bien Hecho!'}).appendTo(capa);
-                    }else{
-                        $('<h2/>',{'text'  : 'Lo sentimos!'}).appendTo(capa);
-                    }
-
-                    $('<button/>',{
-                        'class'          : 'rosa',
-                        'id'             : 'FinalizarEncuesta',
-                        'text'           : 'Reiniciar'
-                    }).appendTo(capa); 
                 }
 
                 //Crear Pregunta
@@ -218,14 +133,40 @@
                     });
 
                 }
+                //Finalizar
+                function finTrivia(){
+                    $(capa).html('');
+                    //HTML DE PREGUNTA
+                    //<h1 class="celeste">PREGUNTA_ <label id="preguntaNum" class="rosa">1</label></h1>
+                    $('<h1/>',{
+                        'class' : 'celeste titular',
+                        'text'  : 'ENCUESTA TERMINADA PUNTAJE  '
+                    }).appendTo(capa);
+
+                    $('<h1/>',{
+                        'class' : 'rosa puntaje',
+                        'text'  : Puntaje + ' de 10' 
+                    }).appendTo(capa);    
+
+                    if (Puntaje >= PuntajeCorrecto){
+                        $('<h2/>',{'text'  : 'Bien Hecho!'}).appendTo(capa);
+                    }else{
+                        $('<h2/>',{'text'  : 'Lo sentimos!'}).appendTo(capa);
+                    }
+
+                    $('<button/>',{
+                        'class'          : 'rosa',
+                        'id'             : 'FinalizarEncuesta',
+                        'text'           : 'Reiniciar'
+                    }).appendTo(capa); 
+                }
 
                 //Comenzar Trivia
                 iniciarTrivia();
 
-
                 //Iniciando Trivia
                 $(document).on('click', '#IniciarTrivia', function(event) {
-                    crearPregunta(0, JsonPreguntas[numPregunta[0]]);
+                    crearPregunta(0, jsonPreguntas[numPregunta[0]]);
                 });
 
                 //Finalizar Trivia
@@ -254,13 +195,11 @@
                         setTimeout(function(){
                             crearPregunta(
                                 $('h1').data('siguiente'), 
-                                JsonPreguntas[numPregunta[$('h1').data('siguiente')]]
+                                jsonPreguntas[numPregunta[$('h1').data('siguiente')]]
                                 );
                         }, 2000);
                     }
                 });
-
-*/
 
             });
         </script>

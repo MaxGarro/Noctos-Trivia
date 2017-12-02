@@ -16,6 +16,7 @@
     <body>
         <div class="appNoctos">
             <img src="img/noctoslogo.png" alt="" style="width: 100%">
+            <div id="Countdown">Tiempo: 01 : 30</div>
             <div id="pregunta">
 
             </div>
@@ -30,6 +31,12 @@
         <script type="text/javascript">
             app.initialize();
             jQuery(document).ready(function($) {
+
+                //Tiempo del juego
+                var minutosJuego = 1.5;
+                var tiempo = minutosJuego * 60 * 1000;
+                
+                //capa de Preguntas
                 var capa = '#pregunta';
                 var jsonPreguntas = Array();
 
@@ -42,6 +49,45 @@
                 //Puntaje
                 var Puntaje = 0;
                 var PuntajeCorrecto = 7;
+
+                var estadoTrivia = false;
+
+                //var Intervalos;
+
+                function TimerOn(tiempo, counter){
+                    var horaActual = new Date().getTime();
+                        horaFin    = horaActual + tiempo;
+                    
+                        Intervalos = setInterval(function() {
+                            //fecha actual
+                            horaActual = new Date().getTime();
+                            var tiempoRestante   = horaFin - horaActual;
+
+                            var minutos = Math.floor((tiempoRestante % (1000 * 60 * 60)) / (1000 * 60));
+                            var segundos = Math.floor((tiempoRestante % (1000 * 60)) / 1000);
+                            minutos = (String(minutos).length ==  1) ? "0" + String(minutos) : minutos;
+                            segundos = (String(segundos).length ==  1) ? "0" + String(segundos) : segundos;
+
+                            $(counter).html('Tiempo: ' + minutos + ' : ' + segundos);
+
+                            if (tiempoRestante < 10000){
+                                $(counter).addClass('rojo');
+                            }
+                            if(estadoTrivia == false){
+                                $(counter).html('Tiempo: 01 : 30').removeClass('rojo');
+                                clearInterval(Intervalos);
+                            }
+                            if (tiempoRestante <= 0) {
+                                $(counter).html('Tiempo: 01 : 30').removeClass('rojo');
+                                finTrivia('0');
+                                clearInterval(Intervalos);
+                            }
+                    }, 1000);
+                }
+                function TimerClear(){
+                    $(counter).html('Tiempo: 01 : 30').removeClass('rojo');
+                    //clearInterval(Intervalos);
+                }
 
                 //Inicializar
                 function iniciarTrivia(){
@@ -73,7 +119,6 @@
 
                         for(var i = 0; i < numPregunta.length; i++) {
                             if (numPregunta[i] == num) {
-                                console.log('se');
                                   aleatorio(min, max);
                                 break;
                             }
@@ -133,8 +178,11 @@
                     });
 
                 }
+
                 //Finalizar
-                function finTrivia(){
+                function finTrivia(tiempo = 1){
+                    //TimerClear('#Countdown');
+
                     $(capa).html('');
                     //HTML DE PREGUNTA
                     //<h1 class="celeste">PREGUNTA_ <label id="preguntaNum" class="rosa">1</label></h1>
@@ -145,7 +193,7 @@
 
                     $('<h1/>',{
                         'class' : 'rosa puntaje',
-                        'text'  : Puntaje + ' de 10' 
+                        'text'  : Puntaje + ' de ' + cantPreguntas 
                     }).appendTo(capa);    
 
                     if (Puntaje >= PuntajeCorrecto){
@@ -166,6 +214,8 @@
 
                 //Iniciando Trivia
                 $(document).on('click', '#IniciarTrivia', function(event) {
+                    estadoTrivia = true;
+                    TimerOn(tiempo, '#Countdown');
                     crearPregunta(0, jsonPreguntas[numPregunta[0]]);
                 });
 
@@ -188,6 +238,7 @@
 
                     if($('#preguntaNum').data('valor') == cantPreguntas){
                         setTimeout(function(){
+                            estadoTrivia = false;
                              finTrivia();
                         }, 2000);    
 
