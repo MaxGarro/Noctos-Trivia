@@ -53,7 +53,7 @@
                 var estadoTrivia = false;
 
                 //var Intervalos;
-
+/*
                 function TimerOn(tiempo, counter){
                     var horaActual = new Date().getTime();
                         horaFin    = horaActual + tiempo;
@@ -88,7 +88,7 @@
                     $(counter).html('Tiempo: 01 : 30').removeClass('rojo');
                     //clearInterval(Intervalos);
                 }
-
+*/
                 //Inicializar
                 function iniciarTrivia(){
                     Puntaje = 0;
@@ -219,7 +219,7 @@
                 //Iniciando Trivia
                 $(document).on('click', '#IniciarTrivia', function(event) {
                     estadoTrivia = true;
-                    TimerOn(tiempo, '#Countdown');
+                    /*TimerOn(tiempo, '#Countdown');*/
                     crearPregunta(0, jsonPreguntas[numPregunta[0]]);
                 });
 
