@@ -83,6 +83,12 @@
                             }
                     }, 1000);
                 }
+
+
+                function TimerClear(){
+                    $(counter).html('Tiempo: 01 : 30').removeClass('rojo');
+                    //clearInterval(Intervalos);
+                }
             /*--------------------------------------*/    
                 //Inicializar
                 function iniciarTrivia(){
@@ -173,12 +179,19 @@
                     $('<h1/>',{
                         'class' : 'rosa puntaje',
                         'text'  : Puntaje + ' de 10' 
-                    }).appendTo(capa);    
-                    if (Puntaje >= PuntajeCorrecto){
+                    }).appendTo(capa);   
+
+
+                    if (tiempo == 0){
+                        $('<h2/>',{'text'  : 'Tu tiempo se agoto, Lo sentimos!'}).appendTo(capa);
+                    }else if (Puntaje >= PuntajeCorrecto){
                         $('<h2/>',{'text'  : 'Bien Hecho!'}).appendTo(capa);
                     }else{
-                        $('<h2/>',{'text'  : 'Lo sentimos!'}).appendTo(capa);
+                        $('<h2/>',{'text'  : 'Lo sentimos, debes contestar 7 preguntas correctamente!'}).appendTo(capa);
                     }
+
+
+
                     $('<button/>',{
                         'class'          : 'rosa',
                         'id'             : 'FinalizarEncuesta',
@@ -208,6 +221,7 @@
                     $('.preguntaTrivia[data-correcto="1"]').addClass('verde');
                     if($('#preguntaNum').data('valor') == cantPreguntas){
                         setTimeout(function(){
+                             estadoTrivia = false;
                              finTrivia();
                         }, 2000);    
                     }else{
