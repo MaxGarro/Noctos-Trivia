@@ -189,6 +189,8 @@
                 iniciarTrivia();
                 //Iniciando Trivia
                 $(document).on('click', '#IniciarTrivia', function(event) {
+                    estadoTrivia = true;
+                    TimerOn(tiempo, '#Countdown');
                     crearPregunta(0, jsonPreguntas[numPregunta[0]]);
                 });
                 //Finalizar Trivia
